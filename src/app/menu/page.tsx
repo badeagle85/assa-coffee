@@ -1,12 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { menuItems, categoryNames, type MenuCategory } from "@/constants/menu";
-import Image from "next/image";
 
 const MenuPage = () => {
-  const [activeTab, setActiveTab] = useState<MenuCategory>("coffee");
 
   const categories: MenuCategory[] = [
     "coffee",
